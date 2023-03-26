@@ -1,0 +1,52 @@
+body{
+    margin: auto;
+    
+}
+
+.primeira{
+    background-image: url(/projeto_onu/img_onu/background_image.webp);
+    height: 250px;
+    background-position: bottom right;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20%;
+}
+
+.conteudo{
+    padding: 50px;
+    background-color: white;
+    margin: -10% 5% 5% 40%;
+    font-family: Century Gothic;
+}
+
+.tema h2{
+    font-size: 40px;
+    color: black;
+}
+
+.tema h3{
+    font-size: 20px;
+}
+
+.ods-14 img{
+    width: 50%;
+    height: 30%;
+    float: left;
+    padding-top: 5%;
+}
+
+.tema-sobre{
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 5%;
+    text-align:justify
+}
+
+.topicos h3{
+    font-size: 20px;
+    color: rgb(53, 115, 151);
+    margin-top: 5%;
+}
+
+
+
