@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.16);
+}
+
+#navigation > ul > li {
+    display: inline-block;
+}
+
+#navigation > ul > li > a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0 10px;
+    transition: all .3s ease-in-out;
+}
+
+#navigation > ul > li > a:hover {
+    color: #97b770;
+    width: 100%;
+}
+
+#navigation ul li a::after {
+    content: ''; /* Todo pseudo element precisa ter um content, mesmo que vazio */
+    width: 0; /* não mostra a linha sob os links */
+    height: 2px;
+    background-color: #97b770;
+  
+    position: absolute; /* em relação ao 'a' */
+    left: 0;
+    bottom: -100%;
+  
+    transition: width 0.2s; /* adiciona uma transição para a largura ir de 0 a 100% com o hover abaixo */
+  }
+  
+  #navigation ul li a:hover::after,
+  #navigation ul li a.active::after {
+  width: 100%; /* mostra a linha em toda a largura dos links */
+}
+
+
+.logo img {
+    width: 100px;
+    padding: 0;
+    background-color: #97b770;
+}

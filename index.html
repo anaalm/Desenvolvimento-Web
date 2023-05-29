@@ -8,7 +8,7 @@ ser renderizada-->
         <meta name="author" content="Ana Almeida">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="HTML, CSS, JavaScript">
-        <link rel="stylesheet" href="/Projeto_pessoal/style.css">
+        <link rel="stylesheet" href="/Website Arthemis/CSS/style.css">
     </head>
         
     <style>
@@ -19,91 +19,32 @@ ser renderizada-->
     </style>
 
     <body>
-        <div id="home"> <!--id menu home-->
-            <header class="cabeçalho">
+        <section id="container">
+            <header id="header">
                 <div class="logo">
                     <img src="/Projeto Arthemis/img_arthemis/IMG_1220-removebg-preview.png">
                 </div>
-               
-                <nav class="menu">
-                    <div class="menu-list"><a href="#home">home</a></div>
-                    <div class="space"></div>
-                    <div class="menu-list"><a href="#historia">nossa história</a></div>
-                    <div class="space"></div>
-                    <div class="menu-list"><a href="#aulas">aulas</a></div>
-                    <div class="space"></div>
-                    <div class="menu-list"><a href="#associar">associe-se</a></div>
-                    <div class="space"></div>
-                    <div class="menu-list"><a href="#contato">contato</a></div>
-                    <div class="space"></div>
+                
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">nossa história</a></li>
+                        <li><a href="#">aulas</a></li>
+                        <li><a href="#">associe-se</a></li>
+                        <li><a href="#">contato</a></li>
+                    </ul>
                 </nav>
             </header>
-        <div class="img-home">
-            <h3>venha fazer<br> parte do<br> nosso time!</h3>
-        </div>
-        <main>
-            <div id="historia">
-                <div class="quem-somos">
-                    <h3>Quem Somos</h3>
-                </div>
-                <div class="contanier-qs">
-                    <div class="video">
-                        <iframe src="https://www.youtube.com/embed/kR_ObizjU0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </div>
-                    <div class="texto-qs">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas eius laborum dolore eos perferendis repellendus non numquam soluta in officiis atque tempora 
-                        possimus necessitatibus, saepe mollitia sint nisi. Veritatis, quisquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae impedit dicta quis labore 
-                        repellat voluptates asperiores, quam doloremque voluptatum maxime quas velit corporis consectetur. Blanditiis voluptatem quas quisquam quis nesciunt.
-                        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi deserunt saepe aliquam unde, nostrum, molestias, dolorem tenetur incidunt consequatur laboriosam 
-                        repellendus eaque consectetur. Doloremque eos modi recusandae labore dolorem fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nam fuga, omnis s
-                        it fugit blanditiis voluptas facere earum pariatur, voluptatem reprehenderit dicta consequatur velit tempora voluptatibus tenetur, ex repudiandae aperiam. lo</p>
-                    </div>
-                </div>
+        </section>
+        <section id="home" class="section-main">
+            <div class="text">
+                <h2 class="title">Venha fazer parte do nosso time!</h2>
+                <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ducimus in aliquid quia.</p>
+                <button id="agendamento" class="button"><a href="#">Agende uma aula experimental</a></button>
             </div>
-            <div class="destaques">
-                <h3>destaques</h3>
-                <!-- inicio slider -->
-                <div class="slider">
-                    <div class="slides">
-                        <!-- radios buttons -->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <!-- fim radios buttons -->
-
-                        <!-- slides img -->
-                        <div class="slide first">
-                            <img src="/Projeto_pessoal/img_pessoal/destaque1.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="/Projeto_pessoal/img_pessoal/destaque2.jpg">
-                        </div>
-                        <div class="slide">
-                            <img src="/Projeto_pessoal/img_pessoal/destaque3.jpg">
-                        </div>
-                        <!-- fim slides img -->
-
-                        <!-- naviagation auto -->
-                        <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                        </div>
-                    </div>
-                    <div class="manual-navigation">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                    </div>
-                </div>
-                <!-- fim slider -->
-                <div class="mundial-madrid">
-                    <h4>mundial madrid</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, provident natus dolores ut non quaerat architecto odio saepe quia suscipit, cupiditate quod repellat accusantium doloribus, nostrum fugiat dolor. Facilis, illum?</p>
-                </div>
-            </div>  
-        </main>
-        <script src="/Projeto_pessoal/sidebar.js"></script>
-        <script src="/Projeto_pessoal/slider.js"></script>
+            <div class="img-principal">
+                <img src="/Projeto_pessoal/img_pessoal/backgroundimg.png">
+            </div>
+        </section>
     </body>
 </html>
